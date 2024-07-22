@@ -6,6 +6,6 @@ public class T extends Thread{
 		this.e=e;
 }
 public void run() {
-	e.display();
+	Example.display();
 }
 }

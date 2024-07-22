@@ -1,7 +1,7 @@
 package com.tnsif.synchronizationdemo;
 
 public class Example {
-	void display() {
+	synchronized static void display() {
 		Thread g=Thread.currentThread();
 		for(int i=0;i<=3;i++) {
 			try {
